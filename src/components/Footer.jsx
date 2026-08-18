@@ -174,7 +174,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/contact.php"
+                  to="/contact"
                   className="hover:text-white transition-colors"
                 >
                   Contact
@@ -207,7 +207,6 @@ export default function Footer() {
             </p>
             <ul className="mt-4 space-y-3 text-sm">
               <li>14 Independence Avenue, Abuja, Nigeria</li>
-              <li>+234 812 345 6789</li>
               <li>support@emmmar.com</li>
             </ul>
           </div>
