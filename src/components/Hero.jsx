@@ -19,7 +19,6 @@ export default function Hero() {
         duration-300
       "
     >
-
       {/* ==========================================================
           BACKGROUND UI DESIGN
       ========================================================== */}
@@ -107,7 +106,6 @@ export default function Hero() {
           inset-0
         "
       >
-
         {/* Top right checkbox */}
         <div
           className="
@@ -182,7 +180,6 @@ export default function Hero() {
             dark:border-white/[0.08]
           "
         />
-
       </div>
 
       {/* ==========================================================
@@ -190,7 +187,6 @@ export default function Hero() {
       ========================================================== */}
 
       <div className="relative z-10 max-w-7xl mx-auto">
-
         <div
           className="
             grid
@@ -200,13 +196,11 @@ export default function Hero() {
             items-center
           "
         >
-
           {/* ======================================================
               LEFT CONTENT
           ====================================================== */}
 
           <div>
-
             {/* Badge */}
             <span
               className="
@@ -264,7 +258,6 @@ export default function Hero() {
                   "
                 />
               </span>
-
               Welcome To Emmmar Motors Company
             </span>
 
@@ -305,15 +298,12 @@ export default function Hero() {
                 leading-relaxed
               "
             >
-              EMMMAR MOTORS COMPANY LTD is a Nigerian
-              transportation and fleet operations company
-              focused on vehicle acquisition, commercial
-              transportation, fleet management, logistics,
-              import and export, and other strategic business
-              operations. We are committed to building
-              sustainable operations, creating value, and
-              delivering long-term growth through real
-              business activities.
+              EMMMAR MOTORS COMPANY LTD is a Nigerian transportation and fleet
+              operations company focused on vehicle acquisition, commercial
+              transportation, fleet management, logistics, import and export,
+              and other strategic business operations. We are committed to
+              building sustainable operations, creating value, and delivering
+              long-term growth through real business activities.
             </p>
 
             {/* ==================================================
@@ -328,7 +318,6 @@ export default function Hero() {
                 gap-4
               "
             >
-
               {/* Explore */}
               <Link
                 to="/explores"
@@ -354,7 +343,6 @@ export default function Hero() {
                 "
               >
                 Explore EMMMAR
-
                 <svg
                   width="18"
                   height="18"
@@ -404,7 +392,6 @@ export default function Hero() {
               >
                 Login
               </Link>
-
             </div>
 
             {/* ==================================================
@@ -424,7 +411,6 @@ export default function Hero() {
                 dark:text-slate-500
               "
             >
-
               <div className="flex items-center gap-2">
                 <span
                   className="
@@ -456,7 +442,6 @@ export default function Hero() {
                     <path d="M5 12l4 4L19 6" />
                   </svg>
                 </span>
-
                 Reliable Operations
               </div>
 
@@ -491,12 +476,9 @@ export default function Hero() {
                     <path d="M5 12l4 4L19 6" />
                   </svg>
                 </span>
-
                 Business Focused
               </div>
-
             </div>
-
           </div>
 
           {/* ======================================================
@@ -504,7 +486,6 @@ export default function Hero() {
           ====================================================== */}
 
           <div className="relative">
-
             {/* Decorative UI frame */}
 
             <div
@@ -546,7 +527,6 @@ export default function Hero() {
                 dark:shadow-black/40
               "
             >
-
               <img
                 src="/emma/img/Truckemmar1.jpeg"
                 alt="Featured Emmmar Motors vehicle"
@@ -596,7 +576,6 @@ export default function Hero() {
                   text-white
                 "
               >
-
                 <div
                   className="
                     flex
@@ -604,7 +583,6 @@ export default function Hero() {
                     gap-3
                   "
                 >
-
                   <div
                     className="
                       w-9
@@ -628,33 +606,20 @@ export default function Hero() {
                     >
                       <path d="M5 12L6.5 6.5H17.5L19 12" />
                       <path d="M3 12H21V17H3Z" />
-                      <circle
-                        cx="7.5"
-                        cy="17"
-                        r="1.6"
-                      />
-                      <circle
-                        cx="16.5"
-                        cy="17"
-                        r="1.6"
-                      />
+                      <circle cx="7.5" cy="17" r="1.6" />
+                      <circle cx="16.5" cy="17" r="1.6" />
                     </svg>
                   </div>
 
                   <div>
-                    <p className="text-sm font-semibold">
-                      Emmmar Motors
-                    </p>
+                    <p className="text-sm font-semibold">Emmmar Motors</p>
 
                     <p className="text-[11px] text-white/60 mt-0.5">
                       Transportation & Fleet Solutions
                     </p>
                   </div>
-
                 </div>
-
               </div>
-
             </div>
 
             {/* Floating checkbox UI */}
@@ -709,11 +674,8 @@ export default function Hero() {
                 </svg>
               </div>
             </div>
-
           </div>
-
         </div>
-
       </div>
     </section>
   );
