@@ -331,7 +331,7 @@ export default function Hero() {
 
               {/* Explore */}
               <Link
-                to="/explore"
+                to="/explores"
                 className="
                   group
                   inline-flex
