@@ -203,7 +203,6 @@ export default function Header() {
             gap-4
           "
         >
-
           {/* ======================================================
              LOGO
           ====================================================== */}
@@ -215,7 +214,7 @@ export default function Header() {
           >
             {/* Light mode logo */}
             <img
-              src='/emma/img/emmalightmood.png'
+              src="/emma/img/emmalightmood.png"
               alt="Emmmar Motors"
               className="h-10 lg:h-11 w-auto dark:hidden"
             />
@@ -244,10 +243,7 @@ export default function Header() {
             {/* HOME */}
 
             <li>
-              <Link
-                to="/"
-                className={getNavLinkClass("/")}
-              >
+              <Link to="/" className={getNavLinkClass("/")}>
                 Home
               </Link>
             </li>
@@ -255,22 +251,15 @@ export default function Header() {
             {/* ABOUT */}
 
             <li>
-              <Link
-                to="/about"
-                className={getNavLinkClass("/about")}
-              >
+              <Link to="/about" className={getNavLinkClass("/about")}>
                 About Us
               </Link>
             </li>
 
-
             {/* CONTACT */}
 
             <li>
-              <Link
-                to="/contact"
-                className={getNavLinkClass("/contact")}
-              >
+              <Link to="/contact" className={getNavLinkClass("/contact")}>
                 Contact
               </Link>
             </li>
@@ -281,7 +270,6 @@ export default function Header() {
           ====================================================== */}
 
           <div className="flex items-center gap-2 sm:gap-3">
-
             {/* ==================================================
                LIGHT / DARK SWITCH
             ================================================== */}
@@ -290,9 +278,7 @@ export default function Header() {
               type="button"
               onClick={toggleDarkMode}
               aria-label={
-                isDarkMode
-                  ? "Switch to light mode"
-                  : "Switch to dark mode"
+                isDarkMode ? "Switch to light mode" : "Switch to dark mode"
               }
               aria-pressed={isDarkMode}
               className="
@@ -321,11 +307,7 @@ export default function Header() {
                   justify-center
                   transition-all
                   duration-300
-                  ${
-                    isDarkMode
-                      ? "translate-x-5"
-                      : "translate-x-0"
-                  }
+                  ${isDarkMode ? "translate-x-5" : "translate-x-0"}
                 `}
               >
                 {isDarkMode ? (
@@ -356,11 +338,7 @@ export default function Header() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle
-                      cx="12"
-                      cy="12"
-                      r="4"
-                    />
+                    <circle cx="12" cy="12" r="4" />
 
                     <path d="M12 2V4" />
                     <path d="M12 20V22" />
@@ -378,7 +356,7 @@ export default function Header() {
             {/* SIGN IN */}
 
             <Link
-              to="/login"
+              to="https://app.emmmar.com"
               className="
                 hidden md:inline-flex
                 text-sm font-medium
@@ -396,7 +374,7 @@ export default function Header() {
             {/* GET STARTED */}
 
             <Link
-              to="/register"
+              to="https://app.emmmar.com/register"
               className="
                 hidden md:inline-flex
                 items-center gap-1.5
@@ -420,11 +398,7 @@ export default function Header() {
               type="button"
               aria-label="Toggle menu"
               aria-expanded={mobileMenuOpen}
-              onClick={() =>
-                setMobileMenuOpen(
-                  (previous) => !previous
-                )
-              }
+              onClick={() => setMobileMenuOpen((previous) => !previous)}
               className="
                 lg:hidden
                 inline-flex
@@ -497,7 +471,6 @@ export default function Header() {
                 gap-1
               "
             >
-
               {/* HOME */}
 
               <li>
@@ -516,24 +489,19 @@ export default function Header() {
                 <Link
                   to="/about"
                   onClick={closeMobileMenu}
-                  className={getMobileNavLinkClass(
-                    "/about"
-                  )}
+                  className={getMobileNavLinkClass("/about")}
                 >
                   About Us
                 </Link>
               </li>
 
-           
               {/* CONTACT */}
 
               <li>
                 <Link
                   to="/contact"
                   onClick={closeMobileMenu}
-                  className={getMobileNavLinkClass(
-                    "/contact"
-                  )}
+                  className={getMobileNavLinkClass("/contact")}
                 >
                   Contact
                 </Link>
@@ -543,7 +511,7 @@ export default function Header() {
 
               <li className="pt-2 flex gap-2">
                 <Link
-                  to="/login.php"
+                  to="https://app.emmmar.com"
                   onClick={closeMobileMenu}
                   className="
                     flex-1
@@ -562,7 +530,7 @@ export default function Header() {
                 </Link>
 
                 <Link
-                  to="/register.php"
+                  to="https://app.emmmar.com/register.php"
                   onClick={closeMobileMenu}
                   className="
                     flex-1
