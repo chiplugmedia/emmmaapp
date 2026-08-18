@@ -4,6 +4,7 @@ import About from '@/pages/About';
 import Privacy from '@/pages/Privacy';
 import Terms from '@/pages/Terms';
 import Contact from '@/pages/Contact';
+import Explore from '@/pages/Explore';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/explore" element={<Explore />} />
         <Route path="/privacy" element={<Privacy />} />
        <Route path="/terms" element={<Terms />} />
       </Routes>

@@ -377,7 +377,7 @@ export default function Hero() {
 
               {/* Login */}
               <Link
-                to="/login"
+                to="/login.php"
                 className="
                   inline-flex
                   items-center
