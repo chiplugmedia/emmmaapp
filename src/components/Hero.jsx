@@ -301,7 +301,7 @@ export default function Hero() {
               EMMMAR MOTORS COMPANY LTD is a Nigerian transportation and fleet
               operations company focused on vehicle acquisition, commercial
               transportation, fleet management, logistics, import and export,
-              and other strategic business operations. We are committed to
+              and other commercial business activities. We are committed to
               building sustainable operations, creating value, and delivering
               long-term growth through real business activities.
             </p>
