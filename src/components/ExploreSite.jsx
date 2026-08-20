@@ -128,9 +128,9 @@ export default function ExploreSite() {
               {/* Heading */}
               <h1 className="mt-4 max-w-[720px] text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
                 About{" "}
-                <em className="font-extrabold italic text-blue-600 dark:text-blue-400">
+                <span className="text-blue-600 dark:text-blue-400">
               EMMMAR MOTORS
-                </em>
+                </span>
               </h1>
 
               {/* Description */}

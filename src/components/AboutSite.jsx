@@ -11,21 +11,12 @@ export default function AboutSite() {
           <div className="flex flex-wrap items-end justify-between gap-6">
             {/* Left Column: Badge, Heading, and Description */}
             <div>
-              {/* Badge */}
-              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-blue-700 dark:text-blue-300 bg-blue-50/80 dark:bg-blue-500/10 border border-blue-200 dark:border-blue-500/20 px-4 py-2 rounded-full backdrop-blur-xl">
-                <span className="relative flex h-2.5 w-2.5">
-                  <span className="absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-60 animate-ping" />
-                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-blue-600 dark:bg-blue-400" />
-                </span>
-                ABOUT EMMMAR MOTORS
-              </span>
-
               {/* Heading */}
               <h1 className="mt-4 max-w-[720px] text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
-                Grow With{" "}
-                <em className="font-extrabold italic text-blue-600 dark:text-blue-400">
-                  Confidence.
-                </em>
+                About{" "}
+                <span className="text-blue-600 dark:text-blue-400">
+              EMMMAR MOTORS
+                </span>
               </h1>
 
               {/* Description */}
