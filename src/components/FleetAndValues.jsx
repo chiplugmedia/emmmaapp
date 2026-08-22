@@ -7,7 +7,7 @@ export default function FleetAndValues() {
       category: "911 Trucks",
       description:
         "Our 911 trucks support the movement of goods, equipment and commercial cargo, providing dependable solutions for heavy-duty transportation needs across Nigeria.",
-      image: "/emma/img/911truck.png",
+      image: "/emma/img/truck.png",
       alt: "911 Trucks",
     },
     {

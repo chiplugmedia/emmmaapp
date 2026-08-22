@@ -23,8 +23,8 @@ export default function AboutSite() {
               <p className="mt-4 max-w-[520px] text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
                 Building opportunities through transportation, logistics,
                 vehicle acquisition, fleet operations, import and export, and
-                other commercial activities focused on creating lasting value
-                and sustainable growth.
+                other commercial business activities focused on creating lasting
+                value and sustainable growth.
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function AboutSite() {
 
             <div className="rounded-[2rem] overflow-hidden border border-slate-200/60 dark:border-white/10">
               <img
-                src="/emma/img/e41d53.png"
+                src="/emma/img/truck.png"
                 alt="EMMMAR MOTORS Transportation and Logistics"
                 className="w-full h-[380px] sm:h-[450px] object-cover"
               />
@@ -123,7 +123,7 @@ export default function AboutSite() {
               commercial operations company with a focus on vehicle acquisition,
               transportation, fleet operations, logistics, import and export,
               and other commercial activities Our operations are built around
-              real commercial activity, responsible management, and the
+              real commercial business activity, responsible management, and the
               effective utilization of business assets to create sustainable
               value.
             </p>

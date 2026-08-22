@@ -137,7 +137,7 @@ export default function ExploreSite() {
               <p className="mt-4 max-w-[520px] text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
                 Building opportunities through transportation, logistics,
                 vehicle acquisition, fleet operations, import and export, and
-                other commercial activities focused on creating lasting
+                other commercial business activities focused on creating lasting
                 value and sustainable growth.
               </p>
             </div>
@@ -152,7 +152,7 @@ export default function ExploreSite() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-800">
               <img
-                src="/emma/img/e41d53.png"
+                src="/emma/img/truck.png"
                 alt="EMMMAR MOTORS Transportation and Logistics"
                 className="w-full h-[420px] object-cover"
               />
@@ -173,7 +173,7 @@ export default function ExploreSite() {
               EMMMAR MOTORS COMPANY LTD is a Nigerian transportation and fleet
               operations company focused on vehicle acquisition, commercial
               transportation, fleet operations, logistics, import and export,
-              and other commercial activities.
+              and other commercial business activities.
             </p>
 
             <p className="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
@@ -251,7 +251,7 @@ export default function ExploreSite() {
           {/* Description */}
           <p className="mt-6 text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-3xl sm:mx-auto">
             EMMMAR generates business value through real-world transportation,
-            fleet management, logistics, and commercial activities. Our
+            fleet management, logistics, and commercial business activities. Our
             operations are strategically designed around the acquisition,
             deployment, and productive use of vehicles while supporting
             transportation services, logistics solutions, and other legitimate
