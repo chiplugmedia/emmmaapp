@@ -51,7 +51,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   transition-all
                   duration-300
                   ${t?`translate-x-5`:`translate-x-0`}
-                `,children:t?(0,A.jsx)(`svg`,{width:`12`,height:`12`,viewBox:`0 0 24 24`,fill:`none`,stroke:`white`,strokeWidth:`2.2`,strokeLinecap:`round`,strokeLinejoin:`round`,children:(0,A.jsx)(`path`,{d:`M21 12.8A9 9 0 1 1 11.2 3A7 7 0 0 0 21 12.8Z`})}):(0,A.jsxs)(`svg`,{width:`12`,height:`12`,viewBox:`0 0 24 24`,fill:`none`,stroke:`#2563EB`,strokeWidth:`2.2`,strokeLinecap:`round`,strokeLinejoin:`round`,children:[(0,A.jsx)(`circle`,{cx:`12`,cy:`12`,r:`4`}),(0,A.jsx)(`path`,{d:`M12 2V4`}),(0,A.jsx)(`path`,{d:`M12 20V22`}),(0,A.jsx)(`path`,{d:`M4.93 4.93L6.34 6.34`}),(0,A.jsx)(`path`,{d:`M17.66 17.66L19.07 19.07`}),(0,A.jsx)(`path`,{d:`M2 12H4`}),(0,A.jsx)(`path`,{d:`M20 12H22`}),(0,A.jsx)(`path`,{d:`M4.93 19.07L6.34 17.66`}),(0,A.jsx)(`path`,{d:`M17.66 6.34L19.07 4.93`})]})})}),(0,A.jsx)(k,{to:`https://app.emmmar.com/login`,className:`
+                `,children:t?(0,A.jsx)(`svg`,{width:`12`,height:`12`,viewBox:`0 0 24 24`,fill:`none`,stroke:`white`,strokeWidth:`2.2`,strokeLinecap:`round`,strokeLinejoin:`round`,children:(0,A.jsx)(`path`,{d:`M21 12.8A9 9 0 1 1 11.2 3A7 7 0 0 0 21 12.8Z`})}):(0,A.jsxs)(`svg`,{width:`12`,height:`12`,viewBox:`0 0 24 24`,fill:`none`,stroke:`#2563EB`,strokeWidth:`2.2`,strokeLinecap:`round`,strokeLinejoin:`round`,children:[(0,A.jsx)(`circle`,{cx:`12`,cy:`12`,r:`4`}),(0,A.jsx)(`path`,{d:`M12 2V4`}),(0,A.jsx)(`path`,{d:`M12 20V22`}),(0,A.jsx)(`path`,{d:`M4.93 4.93L6.34 6.34`}),(0,A.jsx)(`path`,{d:`M17.66 17.66L19.07 19.07`}),(0,A.jsx)(`path`,{d:`M2 12H4`}),(0,A.jsx)(`path`,{d:`M20 12H22`}),(0,A.jsx)(`path`,{d:`M4.93 19.07L6.34 17.66`}),(0,A.jsx)(`path`,{d:`M17.66 6.34L19.07 4.93`})]})})}),(0,A.jsx)(k,{to:`/login.php`,className:`
                 hidden md:inline-flex
                 text-sm font-medium
                 text-slate-700
@@ -60,7 +60,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 dark:hover:text-blue-400
                 transition-colors
                 px-2
-              `,children:`Sign in`}),(0,A.jsx)(k,{to:`https://app.emmmar.com/register`,className:`
+              `,children:`Sign in`}),(0,A.jsx)(k,{to:`/register.php`,className:`
                 hidden md:inline-flex
                 items-center gap-1.5
                 bg-blue-600
@@ -97,7 +97,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 text-slate-700
                 dark:text-slate-300
                 gap-1
-              `,children:[(0,A.jsx)(`li`,{children:(0,A.jsx)(k,{to:`/`,onClick:f,className:d(`/`),children:`Home`})}),(0,A.jsx)(`li`,{children:(0,A.jsx)(k,{to:`/about`,onClick:f,className:d(`/about`),children:`About Us`})}),(0,A.jsx)(`li`,{children:(0,A.jsx)(k,{to:`/contact`,onClick:f,className:d(`/contact`),children:`Contact`})}),(0,A.jsxs)(`li`,{className:`pt-2 flex gap-2`,children:[(0,A.jsx)(k,{to:`https://app.emmmar.com`,onClick:f,className:`
+              `,children:[(0,A.jsx)(`li`,{children:(0,A.jsx)(k,{to:`/`,onClick:f,className:d(`/`),children:`Home`})}),(0,A.jsx)(`li`,{children:(0,A.jsx)(k,{to:`/about`,onClick:f,className:d(`/about`),children:`About Us`})}),(0,A.jsx)(`li`,{children:(0,A.jsx)(k,{to:`/contact`,onClick:f,className:d(`/contact`),children:`Contact`})}),(0,A.jsxs)(`li`,{className:`pt-2 flex gap-2`,children:[(0,A.jsx)(k,{to:`/login.php`,onClick:f,className:`
                     flex-1
                     text-center
                     px-3 py-2.5
@@ -108,7 +108,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     font-semibold
                     text-slate-800
                     dark:text-slate-200
-                  `,children:`Sign in`}),(0,A.jsx)(k,{to:`https://app.emmmar.com/register.php`,onClick:f,className:`
+                  `,children:`Login`}),(0,A.jsx)(k,{to:`/register.php`,onClick:f,className:`
                     flex-1
                     text-center
                     px-3 py-2.5
@@ -327,7 +327,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     transition-transform
                     duration-300
                     group-hover:translate-x-1
-                  `,children:[(0,A.jsx)(`path`,{d:`M5 12h14`}),(0,A.jsx)(`path`,{d:`M13 6l6 6-6 6`})]})]}),(0,A.jsx)(k,{to:`https://app.emmmar.com`,className:`
+                  `,children:[(0,A.jsx)(`path`,{d:`M5 12h14`}),(0,A.jsx)(`path`,{d:`M13 6l6 6-6 6`})]})]}),(0,A.jsx)(k,{to:`login.php`,className:`
                   inline-flex
                   items-center
                   justify-center

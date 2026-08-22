@@ -356,7 +356,7 @@ export default function Header() {
             {/* SIGN IN */}
 
             <Link
-              to="https://app.emmmar.com/login"
+              to="/login.php"
               className="
                 hidden md:inline-flex
                 text-sm font-medium
@@ -374,7 +374,7 @@ export default function Header() {
             {/* GET STARTED */}
 
             <Link
-              to="https://app.emmmar.com/register"
+              to="/register.php"
               className="
                 hidden md:inline-flex
                 items-center gap-1.5
@@ -511,7 +511,7 @@ export default function Header() {
 
               <li className="pt-2 flex gap-2">
                 <Link
-                  to="https://app.emmmar.com"
+                  to="/login.php"
                   onClick={closeMobileMenu}
                   className="
                     flex-1
@@ -526,11 +526,11 @@ export default function Header() {
                     dark:text-slate-200
                   "
                 >
-                  Sign in
+                 Login
                 </Link>
 
                 <Link
-                  to="https://app.emmmar.com/register.php"
+                  to="/register.php"
                   onClick={closeMobileMenu}
                   className="
                     flex-1
