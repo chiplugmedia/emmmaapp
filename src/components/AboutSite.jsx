@@ -245,7 +245,7 @@ export default function AboutSite() {
               {/* Left Side: Image */}
               <div className="relative w-full h-[350px] sm:h-[450px] rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+                  src="/emma/img/608221843.jpeg"
                   alt="EMMMAR MOTORS Partner Community"
                   className="w-full h-full object-cover"
                 />
