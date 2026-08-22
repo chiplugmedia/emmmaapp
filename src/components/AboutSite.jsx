@@ -15,7 +15,7 @@ export default function AboutSite() {
               <h1 className="mt-4 max-w-[720px] text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
                 About{" "}
                 <span className="text-blue-600 dark:text-blue-400">
-              EMMMAR MOTORS
+                  EMMMAR MOTORS
                 </span>
               </h1>
 
@@ -44,7 +44,7 @@ export default function AboutSite() {
 
             <div className="rounded-[2rem] overflow-hidden border border-slate-200/60 dark:border-white/10">
               <img
-                src="https://images.unsplash.com/photo-1562141961-c0d1f5f3c6c4?auto=format&fit=crop&w=1200&q=80"
+                src="/emma/img/e41d53.png"
                 alt="EMMMAR MOTORS Transportation and Logistics"
                 className="w-full h-[380px] sm:h-[450px] object-cover"
               />
@@ -122,7 +122,7 @@ export default function AboutSite() {
               EMMMAR MOTORS COMPANY LTD is a Nigerian transportation and
               commercial operations company with a focus on vehicle acquisition,
               transportation, fleet operations, logistics, import and export,
-              and other strategic business activities. Our operations are built
+              and other commercial activities Our operations are built
               around real commercial activity, responsible management, and the
               effective utilization of business assets to create sustainable
               value.

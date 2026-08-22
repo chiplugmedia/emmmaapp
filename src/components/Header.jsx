@@ -356,7 +356,7 @@ export default function Header() {
             {/* SIGN IN */}
 
             <Link
-              to="https://app.emmmar.com"
+              to="https://app.emmmar.com/login"
               className="
                 hidden md:inline-flex
                 text-sm font-medium

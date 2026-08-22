@@ -7,7 +7,7 @@ export default function FleetAndValues() {
       category: "911 Trucks",
       description:
         "Our 911 trucks support the movement of goods, equipment and commercial cargo, providing dependable solutions for heavy-duty transportation needs across Nigeria.",
-      image: "/emma/img/911-truck.jpg",
+      image: "/emma/img/911truck.png",
       alt: "911 Trucks",
     },
     {
@@ -15,7 +15,7 @@ export default function FleetAndValues() {
       category: "Tippers",
       description:
         "Supporting the transportation of sand, gravel, stones and other bulk materials for construction and commercial projects.",
-      image: "/emma/img/tipper.jpg",
+      image: "/emma/img/Tippers.png",
       alt: "Tippers",
     },
     {
@@ -23,7 +23,7 @@ export default function FleetAndValues() {
       category: "Coach Buses",
       description:
         "Spacious seating, passenger comfort and luggage capacity for intercity transportation across Nigeria.",
-      image: "/emma/img/coach-bus.jpg",
+      image: "/emma/img/COACHBUSES.png",
       alt: "Coach Buses",
     },
     {
@@ -31,7 +31,7 @@ export default function FleetAndValues() {
       category: "Buses",
       description:
         "Reliable transportation solutions supporting passenger movement across various routes and destinations.",
-      image: "/emma/img/bus.jpg",
+      image: "/emma/img/PassengerTransportation.png",
       alt: "Buses",
     },
     {
@@ -39,7 +39,7 @@ export default function FleetAndValues() {
       category: "Commercial Vehicles",
       description:
         "Supporting delivery, logistics, transportation and operational activities across our business network.",
-      image: "/emma/img/commercial-vehicle.jpg",
+      image: "/emma/img/CommercialVehicles.png",
       alt: "Commercial Vehicles",
     },
     {
@@ -47,7 +47,7 @@ export default function FleetAndValues() {
       category: "Cars",
       description:
         "Supporting mobility, transportation and operational requirements within our business ecosystem.",
-      image: "/emma/img/car.jpg",
+      image: "/emma/img/Cars.png",
       alt: "Cars",
     },
   ];
