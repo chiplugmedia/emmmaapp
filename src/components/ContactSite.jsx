@@ -57,50 +57,7 @@ export default function ContactSection() {
           {/* ============ CONTACT INFO ============ */}
           <div className="lg:col-span-2 space-y-4">
             <div className="rounded-2xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800/80 p-6 space-y-6 shadow-sm">
-              <div className="flex items-start gap-4">
-                <div className="shrink-0 w-10 h-10 rounded-lg bg-[#052da7]/10 dark:bg-blue-500/20 flex items-center justify-center">
-                  <svg
-                    className="w-5 h-5 text-[#052da7] dark:text-blue-400"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  >
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-semibold text-slate-900 dark:text-white">
-                    Our Address
-                  </p>
-                  <p className="text-sm mt-1 text-slate-600 dark:text-slate-400">
-                    14 Independence Avenue, Abuja, Nigeria
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="shrink-0 w-10 h-10 rounded-lg bg-[#052da7]/10 dark:bg-blue-500/20 flex items-center justify-center">
-                  <svg
-                    className="w-5 h-5 text-[#052da7] dark:text-blue-400"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  >
-                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-semibold text-slate-900 dark:text-white">
-                    Phone
-                  </p>
-                  <p className="text-sm mt-1 text-slate-600 dark:text-slate-400">
-                    +234 812 345 6789
-                  </p>
-                </div>
-              </div>
+             
 
               <div className="flex items-start gap-4">
                 <div className="shrink-0 w-10 h-10 rounded-lg bg-[#052da7]/10 dark:bg-blue-500/20 flex items-center justify-center">
@@ -125,7 +82,7 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              {/* <div className="flex items-start gap-4">
                 <div className="shrink-0 w-10 h-10 rounded-lg bg-[#052da7]/10 dark:bg-blue-500/20 flex items-center justify-center">
                   <svg
                     className="w-5 h-5 text-[#052da7] dark:text-blue-400"
@@ -148,7 +105,7 @@ export default function ContactSection() {
                     Saturday: 9:00 AM – 2:00 PM
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Social links */}
@@ -202,7 +159,7 @@ export default function ContactSection() {
           </div>
 
           {/* ============ CONTACT FORM ============ */}
-          <div className="lg:col-span-3">
+          {/* <div className="lg:col-span-3">
             <div className="rounded-2xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800/80 p-6 sm:p-8 shadow-sm">
               {genMsg && (
                 <div className="mb-6 p-4 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-sm font-medium text-emerald-600 dark:text-emerald-400">
@@ -310,7 +267,7 @@ export default function ContactSection() {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

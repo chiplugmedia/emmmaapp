@@ -100,11 +100,11 @@ export default function FleetAndValues() {
   return (
     <>
       {/* ===================== VEHICLES & FLEET ===================== */}
-      <section className="py-20 px-5 sm:px-8 bg-slate-100/50 dark:bg-white/[0.02]">
+      <section className="py-20 px-5 sm:px-8 bg-slate-100/50 dark:bg-slate-950">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="max-w-4xl mx-auto text-left sm:text-center">
-            <span className="inline-flex items-center px-4 py-2 rounded-full bg-[#052DA7]/10 text-[#052DA7] dark:text-[#6B8CFF] text-sm font-semibold">
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-[#052DA7]/10 dark:bg-[#052DA7]/20 text-[#052DA7] dark:text-blue-400 text-sm font-semibold">
               Vehicles &amp; Fleet
             </span>
 
@@ -113,11 +113,11 @@ export default function FleetAndValues() {
             </h2>
 
             <p className="mt-5 text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              At EMMMAR MOTORS COMPANY LTD, our vehicles are at the heart of
-              our transportation, logistics, cargo and commercial operations
-              across Nigeria. Our fleet is strategically deployed to support
-              passenger transportation, cargo movement, logistics services and
-              commercial activities nationwide.
+              At EMMMAR MOTORS COMPANY LTD, our vehicles are at the heart of our
+              transportation, logistics, cargo and commercial operations across
+              Nigeria. Our fleet is strategically deployed to support passenger
+              transportation, cargo movement, logistics services and commercial
+              activities nationwide.
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export default function FleetAndValues() {
             {fleetItems.map((item, index) => (
               <div
                 key={index}
-                className="group relative overflow-hidden rounded-[32px] h-[480px]"
+                className="group relative overflow-hidden rounded-[32px] h-[480px] border border-slate-200 dark:border-white/10"
               >
                 <img
                   src={item.image}
@@ -134,7 +134,7 @@ export default function FleetAndValues() {
                   className="absolute inset-0 w-full h-full object-cover transition duration-700 group-hover:scale-110"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
 
                 <div className="absolute bottom-0 p-7 text-white">
                   <span className="inline-flex px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-xs font-semibold">
@@ -152,12 +152,12 @@ export default function FleetAndValues() {
           </div>
 
           {/* Bottom Statement */}
-          <div className="mt-20 rounded-[32px] bg-[#052DA7] text-white p-8 sm:p-12 text-center">
+          <div className="mt-20 rounded-[32px] bg-[#052DA7] dark:bg-slate-900 border border-transparent dark:border-white/10 text-white p-8 sm:p-12 text-center shadow-xl">
             <p className="text-sm uppercase tracking-[0.25em] text-white/70 font-semibold">
               Built Around Assets. Driven By Operations.
             </p>
 
-            <h3 className="mt-4 text-3xl font-bold">
+            <h3 className="mt-4 text-3xl font-bold text-white">
               Strengthening Transportation Across Nigeria
             </h3>
 
@@ -171,7 +171,6 @@ export default function FleetAndValues() {
           </div>
         </div>
       </section>
-
       {/* ===================== OUR CORE VALUES ===================== */}
       <section className="py-24 px-5 sm:px-8 bg-white dark:bg-slate-950 overflow-hidden">
         <div className="max-w-7xl mx-auto">
@@ -188,8 +187,8 @@ export default function FleetAndValues() {
                 </h2>
 
                 <p className="mt-6 text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Our values guide every decision we make, every relationship
-                  we build, and every operation we undertake. They provide the
+                  Our values guide every decision we make, every relationship we
+                  build, and every operation we undertake. They provide the
                   foundation for sustainable growth, responsible business
                   practices, and operational excellence.
                 </p>
@@ -256,7 +255,7 @@ export default function FleetAndValues() {
                         </div>
                       </div>
                     </div>
-                  )
+                  ),
                 )}
               </div>
             </div>
