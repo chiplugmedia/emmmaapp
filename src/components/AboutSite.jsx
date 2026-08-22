@@ -23,8 +23,8 @@ export default function AboutSite() {
               <p className="mt-4 max-w-[520px] text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
                 Building opportunities through transportation, logistics,
                 vehicle acquisition, fleet operations, import and export, and
-                strategic commercial activities focused on creating lasting
-                value and sustainable growth.
+                other commercial activities focused on creating lasting value
+                and sustainable growth.
               </p>
             </div>
           </div>
@@ -122,8 +122,8 @@ export default function AboutSite() {
               EMMMAR MOTORS COMPANY LTD is a Nigerian transportation and
               commercial operations company with a focus on vehicle acquisition,
               transportation, fleet operations, logistics, import and export,
-              and other commercial activities Our operations are built
-              around real commercial activity, responsible management, and the
+              and other commercial activities Our operations are built around
+              real commercial activity, responsible management, and the
               effective utilization of business assets to create sustainable
               value.
             </p>
