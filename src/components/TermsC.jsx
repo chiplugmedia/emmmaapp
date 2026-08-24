@@ -64,7 +64,7 @@ export default function TermsAndConditions() {
             {/* Main Title */}
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
-                Terms &amp; Conditions
+              Terms &amp; Conditions
               </h2>
 
               <p className="mt-4 leading-relaxed text-slate-700 dark:text-slate-300">
