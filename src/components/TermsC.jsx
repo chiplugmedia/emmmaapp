@@ -170,9 +170,8 @@ export default function TermsAndConditions() {
                     <li className="flex items-start gap-3">
                       <CheckIcon />
                       <span>
-                        EMMMAR MOTORS shall not be held liable for any losses,
-                        damages, or claims arising from the use of its services,
-                        except as required by applicable law.
+                       EMMMAR MOTORS shall not be held liable for losses, delays, or disruptions arising from government policies, regulatory restrictions, changes in applicable laws, force majeure events, or actions, errors, or omissions by the client or third parties that are beyond the reasonable control of EMMMAR MOTORS. However, EMMMAR MOTORS shall remain responsible for obligations required of it under applicable law.
+
                       </span>
                     </li>
 
