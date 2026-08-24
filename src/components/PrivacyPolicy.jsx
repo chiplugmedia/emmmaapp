@@ -192,8 +192,7 @@ export default function PrivacyPolicy() {
 
               <div className="mt-5 p-4 rounded-2xl bg-blue-50 dark:bg-blue-500/10 border border-blue-100 dark:border-blue-500/20">
                 <p className="font-semibold text-blue-700 dark:text-blue-300">
-                  EMMMAR MOTORS will never request your password or transaction
-                  PIN through unofficial communication channels.
+                 EMMMAR MOTORS will never request your password or transaction PIN through any communication channel. Never share these credentials with anyone.
                 </p>
               </div>
             </PolicySection>
