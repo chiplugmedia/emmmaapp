@@ -511,7 +511,7 @@ export default function Header() {
 
               <li className="pt-2 flex gap-2">
                 <Link
-                  to="/login.php"
+                  to="https://emmmar.com/login.php"
                   onClick={closeMobileMenu}
                   className="
                     flex-1
@@ -530,7 +530,7 @@ export default function Header() {
                 </Link>
 
                 <Link
-                  to="/register.php"
+                  to="https://emmmar.com/register.php"
                   onClick={closeMobileMenu}
                   className="
                     flex-1

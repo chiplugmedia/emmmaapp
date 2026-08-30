@@ -41,8 +41,8 @@ export default function ContactSection() {
 
               {/* Description */}
               <p className="mt-4 max-w-[520px] text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-                Have a question about a vehicle, a partnership package, or your
-                account? Send us a message and our team will get back to you.
+                Have a question about EMMMAR MOTORS, our business activities, partnerships, or your account? Send us a message and our team will get back to you.
+
               </p>
             </div>
           </div>
