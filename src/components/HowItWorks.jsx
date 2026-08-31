@@ -2,43 +2,46 @@ import React from "react";
 
 const FEATURES = [
   {
-    title: "Quality Vehicles",
-    desc: "Every vehicle passes a 150-point mechanical and safety inspection before listing.",
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 2l2.4 6.5L21 9l-5 4.4L17.4 21 12 17.3 6.6 21 8 13.4 3 9l6.6-.5z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Affordable Pricing",
-    desc: "Transparent, market-checked pricing with no hidden dealer fees.",
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
-      </svg>
-    ),
-  },
-  {
-    title: "Flexible Financing",
-    desc: "Custom plans across multiple lenders, tailored to your monthly budget.",
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="2" y="5" width="20" height="14" rx="2" />
-        <path d="M2 10h20" />
-      </svg>
-    ),
-  },
-  {
-    title: "Professional Support",
-    desc: "A dedicated advisor guides you from first test drive to final paperwork.",
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M21 11.5a8.38 8.38 0 01-9 8.4A8.5 8.5 0 113 11.5a8.38 8.38 0 018-8.4c.5 0 1 0 1.5.1" />
-        <path d="M20 4l-8.5 8.5-3-3" />
-      </svg>
-    ),
-  },
+  title: "Operational Excellence",
+  desc: "We deliver reliable transportation and fleet operations through professional standards, efficient processes, and dependable service.",
+  icon: (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M3 12h18" />
+      <path d="M12 3v18" />
+      <circle cx="12" cy="12" r="9" />
+    </svg>
+  ),
+},
+{
+  title: "Comprehensive Business Capabilities",
+  desc: "Our operations cover transportation, logistics, fleet management, import and export, and other commercial activities.",
+  icon: (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M3 7h18" />
+      <path d="M3 12h18" />
+      <path d="M3 17h18" />
+    </svg>
+  ),
+},
+{
+  title: "Professional Management",
+  desc: "We apply structured management and industry experience across our business operations.",
+  icon: (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 12a4 4 0 100-8 4 4 0 000 8z" />
+      <path d="M4 21a8 8 0 0116 0" />
+    </svg>
+  ),
+},
+{
+  title: "Dependable Business Support",
+  desc: "We provide consistent support and clear communication across our business relationships and operations.",
+  icon: (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+    </svg>
+  ),
+},
 ];
 
 const STATS = [
@@ -165,8 +168,8 @@ export default function HowItWorks() {
             </h2>
 
             <p className="mt-4 text-slate-600 dark:text-slate-400 text-lg">
-              Trusted transportation solutions, premium vehicle sourcing,
-              professional support, and sustainable growth opportunities.
+              Reliable transportation operations, professional fleet management, diverse commercial activities, and integrated business solutions.
+
             </p>
           </div>
 
