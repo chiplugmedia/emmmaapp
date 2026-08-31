@@ -355,42 +355,46 @@ export default function Header() {
 
             {/* SIGN IN */}
 
-            <Link
-              to="/login.php"
+            <a
+              href="https://emmmar.com/login.php"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-                hidden md:inline-flex
-                text-sm font-medium
-                text-slate-700
-                dark:text-slate-300
-                hover:text-blue-600
-                dark:hover:text-blue-400
-                transition-colors
-                px-2
-              "
+    hidden md:inline-flex
+    text-sm font-medium
+    text-slate-700
+    dark:text-slate-300
+    hover:text-blue-600
+    dark:hover:text-blue-400
+    transition-colors
+    px-2
+  "
             >
               Sign in
-            </Link>
+            </a>
 
             {/* GET STARTED */}
 
-            <Link
-              to="/register.php"
+            <a
+              href="https://emmmar.com/register.php"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-                hidden md:inline-flex
-                items-center gap-1.5
-                bg-blue-600
-                hover:bg-blue-700
-                text-white
-                text-sm
-                font-semibold
-                px-5 py-2.5
-                rounded-xl
-                shadow-md
-                transition-colors
-              "
+    hidden md:inline-flex
+    items-center gap-1.5
+    bg-blue-600
+    hover:bg-blue-700
+    text-white
+    text-sm
+    font-semibold
+    px-5 py-2.5
+    rounded-xl
+    shadow-md
+    transition-colors
+  "
             >
               Get Started →
-            </Link>
+            </a>
 
             {/* MOBILE MENU BUTTON */}
 
@@ -510,42 +514,46 @@ export default function Header() {
               {/* MOBILE AUTH */}
 
               <li className="pt-2 flex gap-2">
-                <Link
-                  to="https://emmmar.com/login.php"
+                <a
+                  href="https://emmmar.com/login.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={closeMobileMenu}
                   className="
-                    flex-1
-                    text-center
-                    px-3 py-2.5
-                    rounded-xl
-                    border
-                    border-slate-200
-                    dark:border-white/10
-                    font-semibold
-                    text-slate-800
-                    dark:text-slate-200
-                  "
+      flex-1
+      text-center
+      px-3 py-2.5
+      rounded-xl
+      border
+      border-slate-200
+      dark:border-white/10
+      font-semibold
+      text-slate-800
+      dark:text-slate-200
+    "
                 >
-                 Login
-                </Link>
+                  Login
+                </a>
 
-                <Link
-                  to="https://emmmar.com/register.php"
+                <a
+                  href="https://emmmar.com/register.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={closeMobileMenu}
                   className="
-                    flex-1
-                    text-center
-                    px-3 py-2.5
-                    rounded-xl
-                    bg-blue-600
-                    hover:bg-blue-700
-                    text-white
-                    font-semibold
-                    shadow-sm
-                  "
+      flex-1
+      text-center
+      px-3 py-2.5
+      rounded-xl
+      bg-blue-600
+      hover:bg-blue-700
+      text-white
+      font-semibold
+      shadow-sm
+    "
                 >
                   Get Started
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
