@@ -327,29 +327,29 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     transition-transform
                     duration-300
                     group-hover:translate-x-1
-                  `,children:[(0,A.jsx)(`path`,{d:`M5 12h14`}),(0,A.jsx)(`path`,{d:`M13 6l6 6-6 6`})]})]}),(0,A.jsx)(k,{to:`https://emmmar.com/login.php`,className:`
-                  inline-flex
-                  items-center
-                  justify-center
-                  gap-2
-                  bg-white/90
-                  dark:bg-white/[0.045]
-                  backdrop-blur-md
-                  text-slate-900
-                  dark:text-white
-                  font-semibold
-                  px-7
-                  py-3.5
-                  rounded-xl
-                  border
-                  border-slate-200
-                  dark:border-white/[0.1]
-                  shadow-sm
-                  hover:shadow-md
-                  hover:-translate-y-1
-                  transition-all
-                  duration-300
-                `,children:`Login`})]}),(0,A.jsxs)(`div`,{className:`
+                  `,children:[(0,A.jsx)(`path`,{d:`M5 12h14`}),(0,A.jsx)(`path`,{d:`M13 6l6 6-6 6`})]})]}),(0,A.jsx)(`button`,{onClick:()=>window.open(`https://emmmar.com/login.php`,`_blank`),className:`
+    inline-flex
+    items-center
+    justify-center
+    gap-2
+    bg-white/90
+    dark:bg-white/[0.045]
+    backdrop-blur-md
+    text-slate-900
+    dark:text-white
+    font-semibold
+    px-7
+    py-3.5
+    rounded-xl
+    border
+    border-slate-200
+    dark:border-white/[0.1]
+    shadow-sm
+    hover:shadow-md
+    hover:-translate-y-1
+    transition-all
+    duration-300
+  `,children:`Login`})]}),(0,A.jsxs)(`div`,{className:`
                 mt-8
                 flex
                 flex-wrap

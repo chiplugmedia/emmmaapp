@@ -363,35 +363,36 @@ export default function Hero() {
                 </svg>
               </Link>
 
-              {/* Login */}
-              <Link
-                to="https://emmmar.com/login.php"
+              <button
+                onClick={() =>
+                  window.open("https://emmmar.com/login.php", "_blank")
+                }
                 className="
-                  inline-flex
-                  items-center
-                  justify-center
-                  gap-2
-                  bg-white/90
-                  dark:bg-white/[0.045]
-                  backdrop-blur-md
-                  text-slate-900
-                  dark:text-white
-                  font-semibold
-                  px-7
-                  py-3.5
-                  rounded-xl
-                  border
-                  border-slate-200
-                  dark:border-white/[0.1]
-                  shadow-sm
-                  hover:shadow-md
-                  hover:-translate-y-1
-                  transition-all
-                  duration-300
-                "
+    inline-flex
+    items-center
+    justify-center
+    gap-2
+    bg-white/90
+    dark:bg-white/[0.045]
+    backdrop-blur-md
+    text-slate-900
+    dark:text-white
+    font-semibold
+    px-7
+    py-3.5
+    rounded-xl
+    border
+    border-slate-200
+    dark:border-white/[0.1]
+    shadow-sm
+    hover:shadow-md
+    hover:-translate-y-1
+    transition-all
+    duration-300
+  "
               >
                 Login
-              </Link>
+              </button>
             </div>
 
             {/* ==================================================
