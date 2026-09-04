@@ -24,14 +24,10 @@ export default function Footer() {
   // Check scroll position for scroll-to-top button
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowScrollBtn(true);
-      } else {
-        setShowScrollBtn(false);
-      }
+      setShowScrollBtn(window.scrollY > 300);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -53,7 +49,6 @@ export default function Footer() {
   const handleAcceptCookies = () => {
     setCookie(COOKIE_NAME, "accepted", COOKIE_DAYS);
     setShowCookieBanner(false);
-    window.location.reload();
   };
 
   const handleDeclineCookies = () => {
@@ -70,9 +65,9 @@ export default function Footer() {
     <>
       {/* ===================== FOOTER ===================== */}
       <footer className="bg-slate-950 text-slate-400 px-5 sm:px-8 pt-16 pb-8 transition-colors duration-300">
-        <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand & Description */}
-          <div>
+          <div className="lg:col-span-1">
             <Link to="/" className="flex items-center">
               <img
                 src="/emma/img/emmadarkmood.png"
@@ -156,12 +151,15 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <p className="text-sm font-semibold text-white uppercase tracking-wider">
-              Quick Links
+              Company
             </p>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <Link to="/" className="hover:text-white transition-colors">
-                  Home
+                <Link
+                  to="/about"
+                  className="hover:text-white transition-colors"
+                >
+                  About
                 </Link>
               </li>
               <li>
@@ -169,15 +167,15 @@ export default function Footer() {
                   to="/about"
                   className="hover:text-white transition-colors"
                 >
-                  About Us
+                  Our Business
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/explores"
                   className="hover:text-white transition-colors"
                 >
-                  Contact
+                  Why Emmmar Motors
                 </Link>
               </li>
             </ul>
@@ -186,15 +184,51 @@ export default function Footer() {
           {/* Services */}
           <div>
             <p className="text-sm font-semibold text-white uppercase tracking-wider">
-              Services
+              Our Services
             </p>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <Link
-                  to="/services"
-                  className="hover:text-white transition-colors"
-                >
-                  Vehicle Sales
+                <Link to="#" className="hover:text-white transition-colors">
+                  Transportation
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="hover:text-white transition-colors">
+                  Fleet Management
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="hover:text-white transition-colors">
+                  Logistics & Haulage
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="hover:text-white transition-colors">
+                  Vehicle Acquisition
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="hover:text-white transition-colors">
+                  Import & Export
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Opportunities */}
+          <div>
+            <p className="text-sm font-semibold text-white uppercase tracking-wider">
+              Opportunities
+            </p>
+            <ul className="mt-4 space-y-3 text-sm">
+              <li>
+                <Link to="#" className="hover:text-white transition-colors">
+                  Investment Opportunities
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="hover:text-white transition-colors">
+                  Partnership Opportunities
                 </Link>
               </li>
             </ul>
@@ -207,7 +241,14 @@ export default function Footer() {
             </p>
             <ul className="mt-4 space-y-3 text-sm">
               <li>14 Independence Avenue, Abuja, Nigeria</li>
-              <li>support@emmmar.com</li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="hover:text-white transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -223,6 +264,7 @@ export default function Footer() {
               Terms of Service
             </Link>
             <button
+              type="button"
               onClick={handleOpenCookieSettings}
               className="hover:text-white transition-colors text-left bg-transparent border-0 p-0 text-xs text-slate-400 cursor-pointer"
             >
@@ -271,12 +313,14 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 shrink-0">
               <button
+                type="button"
                 onClick={handleDeclineCookies}
                 className="px-4 py-2 rounded-lg text-sm font-medium text-slate-300 border border-white/10 hover:bg-white/5 transition-colors focus:outline-none"
               >
                 Decline
               </button>
               <button
+                type="button"
                 onClick={handleAcceptCookies}
                 className="px-5 py-2 rounded-lg text-sm font-semibold text-white bg-blue-700 hover:bg-blue-800 transition-colors focus:outline-none"
               >
