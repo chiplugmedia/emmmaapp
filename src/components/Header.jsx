@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
 const SERVICES_ITEMS = [
   {
     href: "/services#sales",
@@ -97,7 +96,7 @@ export default function Header() {
   const currentPath = location.pathname;
 
   /* ============================================================
-     STATES
+      STATES
   ============================================================ */
 
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -112,11 +111,10 @@ export default function Header() {
 
   const [servicesOpen, setServicesOpen] = useState(false);
 
-  const [mobileServicesOpen, setMobileServicesOpen] =
-    useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   /* ============================================================
-     LIGHT / DARK MODE
+      LIGHT / DARK MODE
   ============================================================ */
 
   useEffect(() => {
@@ -136,7 +134,7 @@ export default function Header() {
   };
 
   /* ============================================================
-     NAVIGATION CLASSES
+      NAVIGATION CLASSES
   ============================================================ */
 
   const getNavLinkClass = (path) => {
@@ -161,16 +159,13 @@ export default function Header() {
       "text-blue-600 dark:text-blue-400 " +
       "bg-blue-50 dark:bg-white/5 font-semibold";
 
-    const inactive =
-      "hover:bg-blue-50 dark:hover:bg-white/5";
+    const inactive = "hover:bg-blue-50 dark:hover:bg-white/5";
 
-    return `block px-3 py-2.5 rounded-xl ${
-      isActive ? active : inactive
-    }`;
+    return `block px-3 py-2.5 rounded-xl ${isActive ? active : inactive}`;
   };
 
   /* ============================================================
-     CLOSE MOBILE MENU
+      CLOSE MOBILE MENU
   ============================================================ */
 
   const closeMobileMenu = () => {
@@ -179,7 +174,7 @@ export default function Header() {
   };
 
   /* ============================================================
-     HEADER
+      HEADER
   ============================================================ */
 
   return (
@@ -204,7 +199,7 @@ export default function Header() {
           "
         >
           {/* ======================================================
-             LOGO
+              LOGO
           ====================================================== */}
 
           <Link
@@ -228,7 +223,7 @@ export default function Header() {
           </Link>
 
           {/* ======================================================
-             DESKTOP NAVIGATION
+              DESKTOP NAVIGATION
           ====================================================== */}
 
           <ul
@@ -266,12 +261,12 @@ export default function Header() {
           </ul>
 
           {/* ======================================================
-             RIGHT CONTROLS
+              RIGHT CONTROLS
           ====================================================== */}
 
           <div className="flex items-center gap-2 sm:gap-3">
             {/* ==================================================
-               LIGHT / DARK SWITCH
+                LIGHT / DARK SWITCH
             ================================================== */}
 
             <button
@@ -353,47 +348,42 @@ export default function Header() {
               </span>
             </button>
 
-            {/* SIGN IN */}
+            {/* DOWNLOAD APP BUTTON (DESKTOP) */}
 
             <a
-              href="https://emmmar.com/login.php"
+              href="https://play.google.com/store/apps/details?id=co.median.android.nmnlyyw&pcampaignid=web_share"
               target="_blank"
               rel="noopener noreferrer"
               className="
-    hidden md:inline-flex
-    text-sm font-medium
-    text-slate-700
-    dark:text-slate-300
-    hover:text-blue-600
-    dark:hover:text-blue-400
-    transition-colors
-    px-2
-  "
+                hidden md:inline-flex
+                items-center gap-2
+                bg-blue-600
+                hover:bg-blue-700
+                text-white
+                text-sm
+                font-semibold
+                px-4 py-2.5
+                rounded-xl
+                shadow-md
+                transition-colors
+              "
             >
-              Sign in
-            </a>
-
-            {/* GET STARTED */}
-
-            <a
-              href="https://emmmar.com/register.php"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-    hidden md:inline-flex
-    items-center gap-1.5
-    bg-blue-600
-    hover:bg-blue-700
-    text-white
-    text-sm
-    font-semibold
-    px-5 py-2.5
-    rounded-xl
-    shadow-md
-    transition-colors
-  "
-            >
-              Get Started →
+              {/* Play Store / Download Icon */}
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download App
             </a>
 
             {/* MOBILE MENU BUTTON */}
@@ -452,7 +442,7 @@ export default function Header() {
         </nav>
 
         {/* ========================================================
-           MOBILE NAVIGATION
+            MOBILE NAVIGATION
         ======================================================== */}
 
         {mobileMenuOpen && (
@@ -511,48 +501,42 @@ export default function Header() {
                 </Link>
               </li>
 
-              {/* MOBILE AUTH */}
+              {/* MOBILE DOWNLOAD APP */}
 
-              <li className="pt-2 flex gap-2">
+              <li className="pt-2">
                 <a
-                  href="https://emmmar.com/login.php"
+                  href="https://play.google.com/store/apps/details?id=co.median.android.nmnlyyw&pcampaignid=web_share"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={closeMobileMenu}
                   className="
-      flex-1
-      text-center
-      px-3 py-2.5
-      rounded-xl
-      border
-      border-slate-200
-      dark:border-white/10
-      font-semibold
-      text-slate-800
-      dark:text-slate-200
-    "
+                    flex items-center justify-center gap-2
+                    w-full
+                    text-center
+                    px-3 py-2.5
+                    rounded-xl
+                    bg-blue-600
+                    hover:bg-blue-700
+                    text-white
+                    font-semibold
+                    shadow-sm
+                  "
                 >
-                  Login
-                </a>
-
-                <a
-                  href="https://emmmar.com/register.php"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={closeMobileMenu}
-                  className="
-      flex-1
-      text-center
-      px-3 py-2.5
-      rounded-xl
-      bg-blue-600
-      hover:bg-blue-700
-      text-white
-      font-semibold
-      shadow-sm
-    "
-                >
-                  Get Started
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Download App
                 </a>
               </li>
             </ul>

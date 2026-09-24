@@ -3,10 +3,8 @@ import React from "react";
 export default function Cta() {
   return (
     <section className="relative overflow-hidden py-24 sm:py-32 px-5 sm:px-8 bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
-
       {/* ================= BACKGROUND UI ================= */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-
         {/* Background Grid */}
         <div
           className="absolute inset-0 opacity-[0.025] dark:opacity-[0.04]"
@@ -19,16 +17,11 @@ export default function Cta() {
       </div>
 
       <div className="relative max-w-7xl mx-auto">
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
-
           {/* ================= IMAGE ================= */}
           <div className="relative order-2 lg:order-1">
-
-            
             {/* Image */}
             <div className="relative z-10 rounded-[2rem] overflow-hidden border border-slate-200/80 dark:border-white/10">
-
               <img
                 src="/emma/img/Truckemmar1.jpeg"
                 alt="Emmmar Motors vehicle"
@@ -37,19 +30,14 @@ export default function Cta() {
 
               {/* Image Overlay */}
               <div className="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-black/75 via-black/25 to-transparent">
-
-                <div className="flex items-center gap-3">
-     </div>
-
+                <div className="flex items-center gap-3"></div>
               </div>
             </div>
           </div>
 
           {/* ================= CONTENT ================= */}
           <div className="relative z-10 order-1 lg:order-2 text-center lg:text-left">
-
             <div className="space-y-5">
-
               {/* Label */}
               <p className="text-xs sm:text-sm uppercase tracking-[0.22em] font-semibold text-blue-600 dark:text-blue-400">
                 EMMMAR MOTORS
@@ -59,7 +47,6 @@ export default function Cta() {
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-slate-900 dark:text-white">
                 Move Forward.
                 <br />
-
                 <span className="text-blue-600 dark:text-blue-400">
                   Build With Confidence.
                 </span>
@@ -71,34 +58,25 @@ export default function Cta() {
                 commercial opportunities designed to help individuals and
                 businesses move forward with confidence.
               </p>
-
             </div>
-
-          
 
             {/* ================= APP DOWNLOAD ================= */}
             <div className="mt-9">
-
               <p className="text-xs uppercase tracking-widest font-semibold text-slate-500 dark:text-slate-400 mb-4">
                 Download Our Mobile App
               </p>
 
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
-
                 {/* Google Play */}
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=co.median.android.nmnlyyw&pcampaignid=web_share"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="Download Emmmar Motors on Google Play"
                   className="inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-black text-white hover:bg-slate-800 transition-all duration-200"
                 >
-
                   {/* Google Play Icon */}
-                  <svg
-                    width="25"
-                    height="25"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                  >
+                  <svg width="25" height="25" viewBox="0 0 24 24" fill="none">
                     <path
                       d="M3.5 2.8L13.4 12 3.5 21.2C3.15 20.7 3 20.1 3 19.4V4.6C3 3.9 3.15 3.3 3.5 2.8Z"
                       fill="#4285F4"
@@ -129,16 +107,10 @@ export default function Cta() {
                       Google Play
                     </span>
                   </span>
-
                 </a>
-
-
               </div>
-
             </div>
-
           </div>
-
         </div>
       </div>
     </section>

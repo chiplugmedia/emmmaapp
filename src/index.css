@@ -96,12 +96,12 @@ html.dark body {
 */
 
 ::selection {
-  background: #000000;
+  background: #0B8DFD;
   color: #ffffff;
 }
 
 html.dark ::selection {
-  background: #ffffff;
+  background: #0B8DFD;
   color: #000000;
 }
 
