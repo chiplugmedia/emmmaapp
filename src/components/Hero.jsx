@@ -612,7 +612,7 @@ function HomeScreen() {
         </div>
 
         {/* AVAILABLE PLANS (ADDED DIRECTLY BELOW EXPLORE) */}
-        <AvailablePlans onSelectPlan={handleSelectPlan} />
+        {/* <AvailablePlans onSelectPlan={handleSelectPlan} /> */}
       </div>
 
       <BottomNav
@@ -1042,23 +1042,26 @@ export default function Hero() {
               <div className="flex -space-x-2.5 overflow-hidden">
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=120&q=80"
-                  alt="Investor 1"
+                  src="/src/assets/img/img100.jpg"
+                  alt="African Model 1"
                 />
+
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?auto=format&fit=crop&w=120&q=80"
-                  alt="Investor 2"
+                  src="/src/assets/img/img200.png"
+                  alt="African Model 2"
                 />
+
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80"
-                  alt="Investor 3"
+                  src="/src/assets/img/img004.jpg"
+                  alt="African Model 3"
                 />
+
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=120&q=80"
-                  alt="Investor 4"
+                  src="/src/assets/img/img0040.jpg"
+                  alt="African Model 4"
                 />
               </div>
 
