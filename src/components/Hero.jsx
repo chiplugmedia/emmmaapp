@@ -1042,25 +1042,25 @@ export default function Hero() {
               <div className="flex -space-x-2.5 overflow-hidden">
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="/src/assets/img/img100.jpg"
+                  src="/emma/img/img100.jpg"
                   alt="African Model 1"
                 />
 
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="/src/assets/img/img200.png"
+                  src="/emma/img/img200.png"
                   alt="African Model 2"
                 />
 
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="/src/assets/img/img004.jpg"
+                  src="/emma/img/img004.jpg"
                   alt="African Model 3"
                 />
 
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-[#05070b] object-cover"
-                  src="/src/assets/img/img0040.jpg"
+                  src="/emma/img/img0040.jpg"
                   alt="African Model 4"
                 />
               </div>
