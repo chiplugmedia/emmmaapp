@@ -619,7 +619,7 @@ function HomeScreen() {
         active="Home"
         items={[
           { label: "Home", Ico: HomeIcon },
-          { label: "Plans", Ico: LayersIcon },
+          { label: "Units", Ico: LayersIcon },
           { label: "Investments", Ico: BagIcon },
           { label: "Transactions", Ico: SwapIcon },
           { label: "Account", Ico: UserIcon },
@@ -727,7 +727,7 @@ function TransactionsScreen() {
       <BottomNav
         active="Transactions"
         items={[
-          { label: "Plans", Ico: LayersIcon },
+          { label: "Units", Ico: LayersIcon },
           { label: "Investments", Ico: BagIcon },
           { label: "Transactions", Ico: SwapIcon },
           { label: "Account", Ico: UserIcon },
