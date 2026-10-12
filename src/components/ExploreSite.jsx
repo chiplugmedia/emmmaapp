@@ -288,7 +288,7 @@ export default function ExploreSite() {
                 {/* CTA Button */}
                 <div className="mt-4 sm:mt-5">
                   <a
-                    href="register.php"
+                    href="https://play.google.com/store/apps/details?id=co.median.android.nmnlyyw&pcampaignid=web_share"
                     className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white text-[#052DA7] font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-[#052DA7] hover:text-white hover:shadow-lg"
                   >
                     View Opportunities
