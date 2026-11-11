@@ -17,7 +17,7 @@ const FAQ_DATA = [
     id: 3,
     question: "How do I create an account?",
     answer:
-      "Click the Create Account button on our website, complete the registration form, verify your email or phone number if applicable, and log in to your dashboard.",
+      "Download the official EMMMAR Motors Company Limited app from the Google Play Store. Once installed, open the app, select the Create Account button and complete the registration process by providing the required information. Follow the instructions to verify your details, if required, and log in to access your account.",
   },
   {
     id: 4,
@@ -33,21 +33,21 @@ const FAQ_DATA = [
   },
   {
     id: 6,
-    question: "What investment packages are available?",
+    question: "What investment Units are available?",
     answer:
-      "EMMMAR MOTORS offers multiple investment packages designed to meet different investment capacities. Full details of each package can be found on the Investment Packages page.",
+      "EMMMAR MOTORS offers multiple investment Units designed to meet different investment capacities. Full details of each Units can be found on the Investment Units page.",
   },
   {
     id: 7,
-    question: "Can I purchase more than one investment package?",
+    question: "Can I purchase more than one investment Unit ?",
     answer:
-      "Yes. Eligible investors may purchase multiple investment packages in accordance with the company's policies and available opportunities.",
+      "Yes. Eligible investors may purchase multiple investment units in accordance with the company's policies and available opportunities.",
   },
   {
     id: 8,
-    question: "How do I purchase an investment package?",
+    question: "How do I purchase an investment Unit?",
     answer:
-      "Log in to your account, select your preferred investment package, review the applicable agreement, and complete the payment through our approved payment channels.",
+      "Log in to your EMMMAR Motors Company Limited account through the app, select your preferred investment unit, review and agree to the applicable investment agreement, and complete the payment using an approved payment method.",
   },
   {
     id: 9,
@@ -59,13 +59,13 @@ const FAQ_DATA = [
     id: 10,
     question: "What payment methods are accepted?",
     answer:
-      "EMMMAR MOTORS accepts payments through approved payment methods available on the platform.",
+      "EMMMAR MOTORS accepts payments through the approved payment methods available on our platform. Please follow the payment instructions provided in the app when completing a transaction.",
   },
   {
     id: 11,
     question: "How do I request a withdrawal?",
     answer:
-      "Log in to your dashboard, navigate to the Withdrawal section, enter your withdrawal request, and submit it for processing.",
+      "Log in to your EMMMAR MOTORS account through the app, navigate to the Withdrawal section, enter the required details, and submit your request for processing.",
   },
   {
     id: 12,
